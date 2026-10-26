@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import { Header } from './components/Header'
 import { Inicio } from './components/Inicio'
+import { ListaPaises } from './components/ListaPaises'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -10,8 +11,11 @@ function App() {
     <>
       <Header/>
       <br/>
+      <main>
       <Inicio/>
-      
+      <ListaPaises/>
+      </main>
+
     </>
   )
 }
