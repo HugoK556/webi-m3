@@ -1,4 +1,5 @@
-// MISION 2 - ASYNC ODYSSEY / HUGO COBOS GUTIERREZ INSO3ºB
+// MISION 3 - REACTOR CORE / HUGO COBOS GUTIERREZ INSO3ºB
+// MISMO CODIGO QUE EL DE LA MISION 2 
 
 // Esquema de la API, const, no se puede modificar
 const API = "https://www.themealdb.com/api/json/v1/1";
