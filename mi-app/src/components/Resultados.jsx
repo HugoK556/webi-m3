@@ -1,7 +1,6 @@
 export function Resultados({ comidas, pais, onVolver }) {
     return (
         <section id="resultados">
-            <button onClick={onVolver}>Volver a los paises</button>
             {comidas.length === 0 ? (
                 <p>No se han encontrado comidas.</p>
             ) : (
@@ -29,6 +28,7 @@ export function Resultados({ comidas, pais, onVolver }) {
                     );
                 })
             )}
+            <button onClick={onVolver}>Volver a los paises</button>
         </section>
     );
 }
