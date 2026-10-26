@@ -1,4 +1,4 @@
-export function ListaPaises({ onSelectCountry, style }) {
+export function ListaPaises({ onSelectCountry }) {
     return (
         <section id="lista-comidas" className="comidas">
             <article className="comida">
