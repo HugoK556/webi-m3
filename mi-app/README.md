@@ -1,16 +1,19 @@
-# React + Vite
+<!-- MISION 3 - REACTOR CORE / HUGO COBOS GUTIERREZ INSO3ºB -->
+## Uso de IA
+Al ser este proyecto mas facil ya que solo habia que replicar el anterior, solo he tenido que usar IA para el desarollo de App.jsx, ya que el index y css eran el mismo y los componentes son copias.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+He dejado api.js tal cual ya que creo que no tengo que modificar ese archivo en un .jsx, solo los componentes.
 
-Currently, two official plugins are available:
+El uso de IA ha venido principalmente a la hora de esto mimso, de comunicarme con la API.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Ejemplos de prompts reales:
 
-## React Compiler
+* "como hago para poder tener el api.js pero usando App.jsx"
+* "como vinculo las llamadas a la api desde api.js a App.jsx"
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+La mayor dificultad ha sido el App.jsx como he dicho porque el resto era practicamente o exactamente lo mismo.
 
-## Expanding the ESLint configuration
+## Autopsia
+1. He dividido el codigo en los componentes que yo he visto mas claros en lugar de muchos pequeños o uno grande, mas o menos me he guiado por lo que serian las secciones.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2. Para mostrar las comidas devueltas por la API, he utilizado un bucle .map() asignando a cada tarjeta su key unica con el idMeal en lugar de hacerlo elemento a elemento.
